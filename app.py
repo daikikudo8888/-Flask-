@@ -82,6 +82,7 @@ def api_delete_memo(id):
     delete_memo(id)
     return jsonify({"message": f"メモ (ID:{id}) を削除しました"})
 
+#コメントのテスト
 
 if __name__ == "__main__":
     app.run(debug=True)
